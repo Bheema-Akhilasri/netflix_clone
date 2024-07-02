@@ -1,0 +1,345 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body{
+    margin: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color:rgb(36, 35, 35);
+    
+    width:100%;
+}
+.hero{
+    width:100%;
+    height:100vh;
+    
+}
+.back-page
+{
+    margin:0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position:relative;
+    width:100%;
+    height:88.7vh;
+    width:212vh;
+    object-fit:cover;
+    transform: scale(1.2);
+}
+.tint{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.884) 0, rgba(0, 0, 0, 0.17) 60%, rgb(0, 0, 0) 100%);
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background: rgba(0, 0, 0, 0.682);
+
+    box-sizing: border-box;
+}
+
+.netflix{
+    
+    top:0;
+}
+.logo{
+    position:absolute;
+}
+.nav-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    margin:10px 210px;
+}
+.btn{
+    top:0;
+    border:1px solid red;
+    padding:7px 15px;
+    border-radius: 4px;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+
+}
+.btn2{
+    margin-left:700px;
+    border:1px solid white;
+    padding:10px 20px;
+    width:100px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.563);
+    color:white;
+    cursor:pointer;
+    font-size: 17px;
+    
+}
+btn2:focus{
+    border:1px solid white;
+    outline:none; 
+}
+::placeholder{
+    color:gray;
+}
+.middle{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    width: 900px;
+}
+.heading{
+    color:white;
+    font-weigth:600px;
+    font-size: 46px;
+    font-family: 'Poppins', sans-serif;
+}
+.heading2{
+    color:white;
+    font-size:28px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+.heading3{
+    color:white;
+    font-size: 20px;
+    padding-top: -4px;
+
+}
+.logic{
+    display:flex;
+    margin-top:5px;
+    
+}
+.email{
+    background-color: rgba(0, 0, 0, 0.448);
+    font-size: 18px;
+    border:1px solid rgb(15, 228, 15);
+    padding:16px 20px;
+    padding-right: 130px;
+    border-radius: 5px;
+    color:lightgray;
+    margin-right: 4px;
+}
+.start{
+    background-color: red;
+    color:white;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400px;
+    padding:13px 20px;
+    margin-top: 5px;
+    padding-bottom: 16px;
+    padding-top: 10px;
+    border:none;
+    padding-right: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
+.arrow{
+    margin-top:20px;
+}
+.page2{
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    margin-top:-10px;
+    padding-top: 80px;
+    padding-bottom: 75px;
+    margin-bottom:5px;
+}
+.text2{
+    color:white;
+    margin-top:100px;
+    margin-left:150px;
+    font-family:Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
+.enjoy{
+    font-size: 43px;
+    margin-top:10px;
+    font-weight: 800;
+    font-family:sans-serif;
+}
+.watch{
+    font-size:25px;
+    margin-top:-20px;
+    padding-right:150px;
+
+}
+.tv{
+    position:relative;
+   
+}
+.tv-img{
+    margin-right:150px;
+    margin-left:-80px;
+    padding-left: -50px;
+    height:100%;
+    width:100%;
+    position:relative;
+    z-index:1;
+}
+.vedio{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    margin-left:-80px;
+    transform: scale(.85);
+    overflow:hidden;
+    top: 0%;
+    left: 5%;
+}
+.page3{
+    display:flex;
+    background-color: black;
+    padding-top:75px;
+    padding-bottom:75px;
+    gap:-50px;
+    margin-top:7px;
+    margin-bottom:9px;
+}
+.girl{
+    height:360px;
+    width:530px;
+    padding-left: 230px;
+    padding-top:-70px;
+}
+.text3{
+    margin-bottom:50px;
+    color:white;
+    padding-top:50px;
+    
+}
+.down{
+    font-weight: 1000;
+    font-size:45px;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right: 80px;
+    margin-right:130px;
+}
+.save{
+    font-size:25px;
+    margin-top: -20px;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-right:130px;
+}
+.tv-img2{
+    margin-right:150px;
+    margin-left:-80px;
+    padding-left: -50px;
+    height:100%;
+    width:100%;
+    height:350px;
+    width:430px;
+    position:relative;
+    z-index:1;
+}
+.page4{
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    margin-top:7.7px;
+    padding-top: 80px;
+    padding-bottom: 75px;
+    margin-bottom:5px;
+}
+.children{
+    height:460px;
+    width:560px;
+    padding-left: 230px;
+    padding-top:-70px;
+}
+.freq{
+    align-items: centre;
+    color:white;
+    font-size: 50px;
+    font-weight: 800;
+    padding-left:450px;
+    padding-bottom:-15px;
+
+}
+.page6{
+    background-color: black;
+    padding-top:9px;
+}
+.btn6{
+    background-color: rgb(41, 39, 39);
+    padding-left: 30px;
+    /* padding-right: 750px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:white;
+    font-size: 25px;
+    border:none;
+    margin-bottom: 10px;
+    margin-left:200px;
+    margin-right: 200px;
+    width:1110px;
+    text-align: left;
+    cursor: pointer;
+    position:relative;
+}
+btn6:focus{
+    background-color: rgba(80, 77, 77, 0.318);
+    
+}
+.plus{
+    color:white;
+    position:absolute;
+    right:250px;
+    bottom:-27px;
+    cursor:pointer;
+
+    
+    font-size:50px;
+}
+.bg{
+    position:relative;
+}
+.again{
+    text-align:center;
+    background-color: black;
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    padding-right: 400px;
+    padding-bottom: 30px;
+}
+.linkname{
+    font-size: 14px;
+    color: rgb(192, 192, 192);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.que{
+    color:rgb(192, 192, 192);
+    padding-left:150px ;
+    padding-top: 70px;
+}
+.last{
+    background-color: black;
+    margin-top:-7px;
+}
+.btn3{
+    margin-left:150px;
+    border:0.5px solid gray;
+    padding:10px 30px;
+    width:120px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.563);
+    color:white;
+    cursor:pointer;
+    font-size: 17px;
+    margin-bottom: 30px;
+
+}
+.india{
+    padding-left: 150px;
+    margin-top: -5px;
+    padding-bottom:40px;
+
+}
