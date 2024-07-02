@@ -4,13 +4,18 @@ body{
     margin: 0;
     /* font-family: 'Poppins', sans-serif; */
     font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    /* background-color: black; */
     background-color:rgb(36, 35, 35);
     
-    width:100%;
+    
+}
+.page1{
+    width:198.5vh;
 }
 .hero{
-    width:100%;
+    /* width:100%; */
     height:100vh;
+    box-sizing: border-box;
     
 }
 .back-page
@@ -21,7 +26,7 @@ body{
     position:relative;
     width:100%;
     height:88.7vh;
-    width:212vh;
+    width:198.5vh;
     object-fit:cover;
     transform: scale(1.2);
 }
@@ -33,7 +38,7 @@ body{
     left:0;
     bottom:0;
     background: rgba(0, 0, 0, 0.682);
-
+   
     box-sizing: border-box;
 }
 
@@ -87,6 +92,7 @@ btn2:focus{
     transform: translate(-50%, -50%);
     position:absolute;
     width: 900px;
+    
 }
 .heading{
     color:white;
@@ -147,6 +153,10 @@ btn2:focus{
     padding-bottom: 75px;
     margin-bottom:5px;
 }
+.pageall{
+    background-color: black;
+    padding-right: -120px;
+}
 .text2{
     color:white;
     margin-top:100px;
@@ -198,6 +208,8 @@ btn2:focus{
     gap:-50px;
     margin-top:7px;
     margin-bottom:9px;
+    box-sizing: border-box;
+   
 }
 .girl{
     height:360px;
@@ -242,6 +254,7 @@ btn2:focus{
     padding-top: 80px;
     padding-bottom: 75px;
     margin-bottom:5px;
+    
 }
 .children{
     height:460px;
@@ -261,6 +274,7 @@ btn2:focus{
 .page6{
     background-color: black;
     padding-top:9px;
+    
 }
 .btn6{
     background-color: rgb(41, 39, 39);
